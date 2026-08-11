@@ -1,2 +1,3 @@
 # speech-emotion-recognition
 A leakage-free Speech Emotion Recognition (SER) pipeline in PyTorch/TensorFlow comparing Random Forest and 2D CNN baselines with actor-independent splits on RAVDESS and TESS.
+An end-to-end Speech Emotion Recognition project built to benchmark traditional audio feature extraction against a deep learning approach on log-mel spectrograms. To prevent speaker bias and data leakage across training and evaluation, data is strictly partitioned by Actor ID into independent train, validation, and test sets. The project includes audio data augmentation, model evaluation on unseen speakers, and cross-corpus generalization testing on the TESS dataset.
